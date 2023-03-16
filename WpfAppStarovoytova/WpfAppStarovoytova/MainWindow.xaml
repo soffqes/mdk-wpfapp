@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfAppStarovoytova.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppStarovoytova"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1000">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <local:UserControl1 Header="День рождения" Description="Счастья, здоровья, успехов во всем и везде!" ColoredSource="/Assets/32a94b4f860c9ea010c2508169f36f36_XL.jpg"></local:UserControl1>
+            <local:UserControl1 Header="8 марта" Description=" Пусть ваши улыбки всегда будут счастливыми, смех звонким, а эмоции радостными!" ColoredSource="/Assets/OIP.jpg"></local:UserControl1>
+            <local:UserControl1 Header="Новый год" Description="Желаю исполнения заветных желаний, финансового благополучия и целого снегопада подарков!" ColoredSource="/Assets/OIP (1).jpg"></local:UserControl1>
+            <local:UserControl1 Header="23 февраля" Description="Крепкого здоровья, неиссякаемой энергии, жизни наполненной миром, счастьем и любовью близких!" ColoredSource="/Assets/OIP (2).jpg"></local:UserControl1>
+        </StackPanel>
+    </Grid>
+</Window>
